@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '📦 Clonage du dépôt...'
-                git branch: 'main', url: 'https://github.com/Maherselmi/student_management.git'
+                git branch: 'main', url: 'https://github.com/ademaloui/devops.git'
             }
         }
 
